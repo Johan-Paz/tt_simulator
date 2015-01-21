@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # @Author: japaz
-from lib.config import Environment
-import lib.sender as sender
+from utils.config import Environment
+import utils.sender as sender
 from os import path,walk
 import sys
 
