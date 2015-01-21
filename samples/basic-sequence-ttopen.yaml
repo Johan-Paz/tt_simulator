@@ -1,4 +1,6 @@
-- in: #8934071179000001899,#0,GM,m,34,0$
-  out: #0,GM,m,34,-1$None,
-- in: #8934071179000001899,#0,GC,c,yes,0$,
-  out: #0,GC,c,yes,-1$None,
+- in: '#<:identifier:>,#0,GM,m,34,0$'
+  out: '#0,GM,m,34,-1$None,'
+- in: '#<:identifier:>,#0,GC,c,yes,0$,'
+  out: '#0,GC,c,yes,-1$None,'
+- in: '#<:identifier:>,#0,GM,m,34,0$,#0,GC,c,yes,0$,'
+  out: '#0,GM,m,34,-1$None,#0,GC,c,yes,-1$None,'

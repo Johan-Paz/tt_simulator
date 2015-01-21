@@ -1,4 +1,13 @@
-- southbound:
-     end-point: 127.0.0.1
-     port: 8000
-     url: /Stack/Receive
+environment: development
+development:
+	southbound:
+		end-point: 127.0.0.1
+		port: 8000
+		url: /Stack/Receive/
+	identifier: 8934071179000001899
+default:
+	southbound:
+		end-point: 127.0.0.1
+		port: 8000
+		url: /Stack/Receive/
+	identifier: 8934071179000001899
