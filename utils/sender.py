@@ -21,7 +21,7 @@ def send_sequence(sequence,context=None,verbosity=False):
                     step_out = context.recall(step['out'])
                     success, out = send_measure(step_in,context)
                     assert success,'Failed the access to the server.'
-                    assert step_out==out, "The expeted answer is '%s' and '%s' is received." % (step_out,out)
+                    assert step_out==out, "The expected answer is '%s' and '%s' is received." % (step_out,out)
                     if verbosity:
                         print 'SUCCESS: ' + step_in + ' --> '+ step_out
 
